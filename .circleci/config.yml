@@ -1,5 +1,6 @@
 working_dir: &working_dir ~/app 
 .build_template: &script
+  parallelism: 25
   steps: 
     - checkout 
     - run: 
